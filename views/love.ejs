@@ -1,0 +1,14 @@
+<% include partials/header %>
+<h1>
+	You fell in love with: <%= thingVariable %>
+</h1>
+
+<%= if (thingVariable.toLowerCase() === "Coco"){ %>
+	<p> Good choice! Coco is the best dof we ever had </p>
+<%= } %>
+
+<p>
+	Note: This came from the love.ejs file
+</p>
+
+<% include partials/footer %>
